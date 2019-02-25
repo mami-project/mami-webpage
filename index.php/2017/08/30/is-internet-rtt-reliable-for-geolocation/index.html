@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>
+Is Internet RTT reliable for geolocation? | 	</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" media="all" href="../../../../../src/style_002.css">
+<!--<link rel="pingback" href="https://mami-project.eu/xmlrpc.php">-->
+<link rel="dns-prefetch" href="https://s.w.org/">
+<!--<link rel="alternate" type="application/rss+xml" title=" » Feed" href="../../../../feed/">
+<link rel="alternate" type="application/rss+xml" title=" » Comments Feed" href="../../../../comments/feed/">
+<link rel="alternate" type="application/rss+xml" title=" » Is Internet RTT reliable for geolocation? Comments Feed" href="../../../../2017/08/30/is-internet-rtt-reliable-for-geolocation/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mami-project.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="../../../../../src/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>-->
+<link rel="stylesheet" id="wp-block-library-css" href="../../../../../src/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="github-embed-css" href="../../../../../src/github-embed.css" type="text/css" media="all">
+<link rel="stylesheet" id="wppa_style-css" href="../../../../../src/wppa-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="github-profile-octicons-css" href="../../../../../src/octicons.css" type="text/css" media="all">
+<link rel="stylesheet" id="PI_stt_front-css" href="../../../../../src/stt.css" type="text/css" media="all">
+<link rel="stylesheet" id="wptt_front-css" href="../../../../../src/admin_style.css" type="text/css" media="all">
+<script type="text/javascript" src="../../../../../src/jquery_002.js"></script>
+<script type="text/javascript" src="../../../../../src/jquery-migrate.js"></script>
+<script type="text/javascript" src="../../../../../src/jquery.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa-utils.js"></script>
+<script type="text/javascript" src="../../../../../src/core.js"></script>
+<script type="text/javascript" src="../../../../../src/widget.js"></script>
+<script type="text/javascript" src="../../../../../src/mouse.js"></script>
+<script type="text/javascript" src="../../../../../src/resizable.js"></script>
+<script type="text/javascript" src="../../../../../src/draggable.js"></script>
+<script type="text/javascript" src="../../../../../src/button.js"></script>
+<script type="text/javascript" src="../../../../../src/position.js"></script>
+<script type="text/javascript" src="../../../../../src/dialog.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa-slideshow.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa-ajax-front.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa-popup.js"></script>
+<script type="text/javascript" src="../../../../../src/wppa-init.js"></script>
+<link rel="https://api.w.org/" href="../../../../wp-json/">
+<!--<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mami-project.eu/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mami-project.eu/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="IETF99: QUIC, TAPS, PAN(P)RG, MAPRG, ACME, BANANA, IPPM, … a busy week in Prague!" href="../../../../2017/08/09/ietf99-quic-taps-panprg-maprg-acme-banana-ippm-a-busy-week-in-prague/">
+<link rel="next" title="MAMI @ IMC’17 in London" href="../../../../2017/11/09/mami-imc17-in-london/">
+<meta name="generator" content="WordPress 5.0.3">
+<link rel="canonical" href="../../../../2017/08/30/is-internet-rtt-reliable-for-geolocation/">
+<link rel="shortlink" href="https://mami-project.eu/?p=573">
+<link rel="alternate" type="application/json+oembed" href="../../../../wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmami-project.eu%2Findex.php%2F2017%2F08%2F30%2Fis-internet-rtt-reliable-for-geolocation%2F">
+<link rel="alternate" type="text/xml+oembed" href="../../../../wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmami-project.eu%2Findex.php%2F2017%2F08%2F30%2Fis-internet-rtt-reliable-for-geolocation%2F&amp;format=xml">-->
+
+<!-- teachPress -->
+<script type="text/javascript" src="../../../../../src/frontend.js"></script>
+<link type="text/css" href="../../../../../src/teachpress_front.css" rel="stylesheet">
+<!-- END teachPress -->
+<!--    <script type="text/javascript">var wpia_ajaxurl = 'https://mami-project.eu/wp-admin/admin-ajax.php';</script>
+    
+<script type="text/javascript">
+wppaImageDirectory = "https://mami-project.eu/wp-content/plugins/wp-photo-album-plus/img/";
+wppaPhotoDirectory = "https://mami-project.eu/wp-content/uploads/wppa/";
+wppaNoPreview = "No Preview available";
+wppaTxtProcessing = "Processing...";
+wppaTxtDone = "Done!";
+wppaTxtErrUnable = "ERROR: unable to upload files.";
+wppaOutputType = "-none-";
+wppaShortcodeTemplate = "&lt;div style=&quot;font-size:0;line-height:0;&quot; &gt;&lt;img id=&quot;ph-14-0&quot; src=&quot;https://mami-project.eu/wp-content/uploads/wppa/14.jpg?ver=1&quot;  alt=&quot;IMG_1057-e1455185786490.jpg&quot;  title=&quot;IMG_1057-e1455185786490.jpg&quot;  style=&quot;width:100%;margin:0;&quot; /&gt;&lt;/div&gt;";
+wppaShortcodeTemplateId = "14.jpg";
+
+</script><meta name="twitter:partner" content="tfwp">-->
+		<!-- WPPA+ START Page specific urls and browser dependant data -->
+<!--		<script type="text/javascript">
+		
+wppaImageDirectory = "https://mami-project.eu/wp-content/plugins/wp-photo-album-plus/img/";
+wppaWppaUrl = "https://mami-project.eu/wp-content/plugins/wp-photo-album-plus";
+wppaIncludeUrl = "https://mami-project.eu/wp-includes";
+wppaAjaxUrl = "https://mami-project.eu/wp-content/plugins/wp-photo-album-plus/wppa-ajax-front.php";
+wppaUploadUrl = "https://mami-project.eu/wp-content/uploads/wppa";
+wppaIsIe = false;
+wppaIsSafari = false;
+wppaUseSvg = true;
+wppaSlideshowNavigationType = "icons";
+wppaAudioHeight = 40;
+		</script>-->
+		<!-- WPPA+ END Page specific urls -->
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Is Internet RTT reliable for geolocation?"><meta name="twitter:description" content="Short, short answer: nope, don't bother. While this is probably obvious to any of you with network engineering experience, we thought we'd use RIPE Atlas to have a look into this question anyway. In the context of an ongoing conversation…">
+
+<!-- WPPA+ Custom styles -->
+<style type="text/css">
+</style>
+<!-- Rendering enabled -->
+<!-- /WPPA Kickoff -->
+
+	</head>
+
+<body class="post-template-default single single-post postid-573 single-format-standard">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="../../../../../index.html" title="" rel="home"></a>
+					</span>
+				</div>
+				<div id="site-description">MAMI Project – This project received 
+funding from the European Union’s Horizon 2020 research and innovation 
+programme under grant agreement No 688421.</div>
+
+										<img src="../../../../../src/mami-bauhaus-text3.png" alt="" width="620" height="190">
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+								<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+                                <div class="menu-header"><ul id="menu-main" class="menu"><li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-62"><a href="../../../../../index.html">Home</a></li>
+                                    <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-84"><a href="../../../../about-mami/index.html">About MAMI</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="../../../../objectives/index.html">Objectives</a></li>
+                                            <li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="../../../../consortium/index.html">Consortium</a></li>
+                                            <li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a href="../../../../workpackages/index.html">Workpackages</a></li>
+                                            <li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="../../../../about-mami/external-advisory-board/index.html">External Advisory Board</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="../../../../standardization-efforts/index.html">Standardization</a></li>
+                                    <li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-79"><a href="../../../../papers/index.html">Publications</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="../../../../deliverables/index.html">Deliverables</a></li>
+                                            <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="../../../../papers/index.html">Papers and Presentations</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="../../../../weblinks/index.html">Software &amp; Links</a></li>
+                                    <li id="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-567"><a href="../../../../events/index.html">Events</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-626"><a href="http://tma.ifip.org/2018/mnm-workshop/">MNM’18 Workshop</a></li>
+                                            <li id="menu-item-649" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-649"><a href="http://summerschool.mami-project.eu/">MAMI Summer School</a></li>
+                                            <li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="../../../../events/mami-management-and-measurement-summit-m3s/index.html">MAMI Management and Measurement Summit (M3S)</a></li>
+                                            <li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="http://tma.ifip.org/2017/workshops/mnm17-workshop/">MNM’17 Workshop</a></li>
+                                        </ul>
+                                    </li>
+                                </ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="../../../../2017/08/09/ietf99-quic-taps-panprg-maprg-acme-banana-ippm-a-busy-week-in-prague/index.html" rel="prev"><span class="meta-nav">←</span> IETF99: QUIC, TAPS, PAN(P)RG, MAPRG, ACME, BANANA, IPPM, … a busy week in Prague!</a></div>
+					<div class="nav-next"><a href="../../../../2017/11/09/mami-imc17-in-london/index.html" rel="next">MAMI @ IMC’17 in London <span class="meta-nav">→</span></a></div>
+				</div><!-- #nav-above -->
+
+				<div id="post-573" class="post-573 post type-post status-publish format-standard hentry category-uncategorized">
+					<h1 class="entry-title">Is Internet RTT reliable for geolocation?</h1>
+
+					<div class="entry-meta">
+                        <span class="meta-prep meta-prep-author">Posted on</span> <a href="../../../../2017/08/30/is-internet-rtt-reliable-for-geolocation/index.html" title="5:53 pm" rel="bookmark"><span class="entry-date">August 30, 2017</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="https://trammell.ch/" title="View webpage of Brian Trammell">Brian Trammell</a></span>					</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+						<p>Short, short answer: <strong>nope</strong>, don’t bother. While this is probably obvious to any of you with network engineering experience, we thought we’d use <a href="https://atlas.ripe.net/">RIPE Atlas</a> to have a look into this question anyway.</p>
+<p>In the context of an <a href="https://github.com/quicwg/base-drafts/issues/631">ongoing conversation</a>
+ about the explicit exposure of RTT information to devices on path in 
+the IETF standard version of the QUIC protocol, we’ve briefly looked 
+into how much of a threat Internet-observable per-path RTT is to 
+geoprivacy of one of the endpoints. It turns out that the old network 
+operations rule of thumb that a millisecond of RTT is 100km long adds a 
+whole lot of uncertainty — a fact which also confounded some <a href="http://ieeexplore.ieee.org/document/7470242/">recent work </a>on
+ RTT-based anycast detection by Cicalese et al. Only in cases where one 
+is very, very lucky — microseconds lucky — in the placement of the 
+vantage points from which RTT measurements are taken can one use RTT 
+measurements for elimination-based geolocation.</p>
+<p>Our full white paper — which is also an experiment in “runnable papers” using Jupyter notebooks — is <a href="https://github.com/britram/trilateration/blob/master/paper.ipynb">available on GitHub</a>.</p>
+											</div><!-- .entry-content -->
+
+						<div id="entry-author-info">
+							<div id="author-description">
+							<h2>About Brian Trammell</h2>
+							Brian Trammell is an Internet measurement and architecture geek, a
+ senior researcher at ETH Zürich's Networked Systems Group, and a member
+ of the Internet Architecture Board.
+							</div><!-- #author-description -->
+						</div><!-- #entry-author-info -->
+	
+					</div><!-- #post-## -->
+
+					<div id="nav-below" class="navigation">
+						<div class="nav-previous"><a href="../../../../2017/08/09/ietf99-quic-taps-panprg-maprg-acme-banana-ippm-a-busy-week-in-prague/index.html" rel="prev"><span class="meta-nav">←</span> IETF99: QUIC, TAPS, PAN(P)RG, MAPRG, ACME, BANANA, IPPM, … a busy week in Prague!</a></div>
+						<div class="nav-next"><a href="../../../../2017/11/09/mami-imc17-in-london/index.html" rel="next">MAMI @ IMC’17 in London <span class="meta-nav">→</span></a></div>
+					</div><!-- #nav-below -->
+	
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="news announcement scroll" class="widget-container widget_news_announcement"><h3 class="widget-title">Announcement</h3><script language="JavaScript" type="text/javascript">
+	v_font='verdana,arial,sans-serif';
+	v_fontSize='11px';
+	v_fontSizeNS4='11px';
+	v_fontWeight='normal';
+	v_fontColor='#000000';
+	v_textDecoration='none';
+	v_fontColorHover='#FFFFFF';
+	v_textDecorationHover='none';
+	v_top=0;
+	v_left=0;
+	v_width=180;
+	v_height=80;
+	v_paddingTop=0;
+	v_paddingLeft=0;
+	v_position='relative';
+	v_timeout=5000;
+	v_slideSpeed=1;
+	v_slideDirection=1;
+	v_pauseOnMouseOver=true;
+	v_slideStep=1;
+	v_textAlign='left';
+	v_textVAlign='top';
+	v_bgColor='transparent';
+</script>
+
+	<div id="display_news"><div id="v_container" style="position:relative;top:0px;left:0px;width:180px;height:80px;background:transparent;layer-background-color:transparent;clip:rect(0,180,80,0);overflow:hidden"><div id="v_1" style="position: absolute; top: 0px; left: 0px; width: 180px; height: 80px; overflow: hidden; text-align: left;" class="vnewsticker"><table width="180" height="80" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="vnewsticker" width="180" valign="top" height="80" align="left"><span onmouseover="if(v_canPause&amp;&amp;v_count>1){clearTimeout(v_TIM);v_cl=1}" onmouseout='if(v_canPause&amp;&amp;v_count>1&amp;&amp;v_cl)v_TIM=setTimeout("v_canPause=0;v_slide();v_cl=0",5000)'>The MAMI project ended in Dec 2018. You can still follow us on twitter <a href="https://twitter.com/mamiproject">(@mamiproject)</a> or <a href="https://github.com/mami-project">GitHub</a>!</span></td></tr></tbody></table></div></div></div>
+	</li>
+<li id="wppa_widget-2" class="widget-container wppa_widget"><h3 class="widget-title">MAMI Photos</h3>
+<!-- WPPA+ Photo of the day Widget start -->
+		<div class="wppa-widget-photo" style="text-align:center; padding-top:2px;position:relative;" data-wppa="yes">
+	<a href="../../../../photo-of-the-day-3/wppaspec/oc1/pt5" target="_self" data-lbtitle="IMG_1057.JPG"><img src="../../../../../src/5.jpg" style="width: 200px; cursor:pointer;" alt="IMG_1057.JPG" title="IMG_1057.JPG"></a>
+</div><div style="clear:both;"></div>
+<!-- WPPA+ Photo of the day Widget end --></li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="https://mami-project.eu/" title="" rel="home">
+									</a>
+							</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="https://wordpress.org/" class="imprint" title="Semantic Personal Publishing Platform">
+					Proudly powered by WordPress.				</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+
+		<!-- start WPPA+ Footer data -->
+		<div id="wppa-overlay-bg" style="text-align: center; display: none; position: fixed; top: 0px; left: 0px; z-index: 100090; width: 100%; height: 605px; background-color: black;" onclick="wppaOvlOnclick(event)"><div id="wppa-ovl-legenda-1" onmouseover="jQuery(this).css('visibility','visible');" onmouseout="jQuery(this).css('visibility','hidden');" style="position:absolute;left:0;top:0;background-color:black;color:#a7a7a7;visibility:visible;">
+					Press f for fullscreen.
+				</div></div><div id="wppa-overlay-ic" style="position:fixed;top:50%;left:50%;z-index:100095;opacity:1;box-shadow:none;box-sizing:content-box;text-align:center;background-color:transparent;"></div><div id="wppa-exit-btn" style="height:48px;z-index:100098;position:fixed;top:0;right:0;opacity:0.75;display:none;" onclick="wppaOvlHide()" onmouseover="if(wppaOvlOpen){jQuery(this).stop().fadeTo(300,1);}else{jQuery(this).stop().fadeOut(300);}" onmouseout="if(wppaOvlOpen){jQuery(this).stop().fadeTo(300,0.1);}else{jQuery(this).stop().fadeOut(300);}"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;height:48px;fill:#999999;background-color:#ffffff;text-decoration:none !important;vertical-align:middle;" xml:space="preserve"><g><path d="M30 24.398l-8.406-8.398 8.406-8.398-5.602-5.602-8.398 8.402-8.402-8.402-5.598 5.602 8.398 8.398-8.398 8.398 5.598 5.602 8.402-8.402 8.398 8.402z"></path></g></svg></div><script type="text/javascript">jQuery('#wppa-exit-btn').on('touchstart',function(){jQuery('#wppa-exit-btn').stop().fadeTo(300,1);});jQuery('#wppa-exit-btn').on('touchend',function(){jQuery('#wppa-exit-btn').stop().fadeTo(300,0.1);});</script><div id="wppa-fulls-btn" style="height:48px;z-index:100098;position:fixed;top:0;right:48px;opacity:0.75;display:none;" onclick="wppaOvlFull()" onmouseover="jQuery(this).stop().fadeTo(300,1);" onmouseout="jQuery(this).stop().fadeTo(300,0.1);"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;height:48px;fill:#999999;background-color:#ffffff;text-decoration:none !important;vertical-align:middle;" xml:space="preserve"><g><path d="M27.414 24.586l-4.586-4.586-2.828 2.828 4.586 4.586-4.586 4.586h12v-12zM12 0h-12v12l4.586-4.586 4.543 4.539 2.828-2.828-4.543-4.539zM12 22.828l-2.828-2.828-4.586 4.586-4.586-4.586v12h12l-4.586-4.586zM32 0h-12l4.586 4.586-4.543 4.539 2.828 2.828 4.543-4.539 4.586 4.586z"></path></g></svg></div><script type="text/javascript">jQuery('#wppa-fulls-btn').on('touchstart',function(){jQuery('#wppa-fulls-btn').stop().fadeTo(300,1);});jQuery('#wppa-fulls-btn').on('touchend',function(){jQuery('#wppa-fulls-btn').stop().fadeTo(300,0.1);});</script><svg id="wppa-ovl-spin" class="wppa-spinner uil-default" width="120px" height="120px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" stroke="" style="width:120px;height:120px;position:fixed;top:50%;margin-top:-60px;left:50%;margin-left:-60px;z-index:100100;opacity:1;display:none;fill:#999999;background-color:#ffffff;box-shadow:none;border-radius:24px;"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(0 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(22.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.09375s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(45 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.1875s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(67.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.28125s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(90 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.375s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(112.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.46875s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(135 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.5625s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(157.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.65625s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(180 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.75s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(202.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.84375s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(225 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="0.9375s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(247.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="1.03125s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(270 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="1.125s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(292.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="1.21875s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(315 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="1.3125s" repeatCount="indefinite"></animate></rect><rect class="wppa-ajaxspin" x="47" y="40" width="6" height="20" rx="3" ry="3" transform="rotate(337.5 50 50) translate(0 -32)"><animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="1.40625s" repeatCount="indefinite"></animate></rect></svg>
+	<script type="text/javascript">
+
+		/* START Lightbox vars */
+		jQuery("#wppa-overlay-bg").css({height:window.innerHeight});
+		wppaOvlModeInitial = "normal";
+		wppaOvlTxtHeight = "auto";
+		wppaOvlOpacity = 0.8;
+		wppaOvlOnclickType = "none";
+		wppaOvlTheme = "black";
+		wppaOvlAnimSpeed = 300;
+		wppaOvlSlideSpeed = 5000;
+		wppaVer4WindowWidth = 800;
+		wppaVer4WindowHeight = 600;
+		wppaOvlShowCounter = true;
+		
+		wppaOvlFontSize = "10";
+		
+		wppaOvlFontWeight = "bold"
+		wppaOvlLineHeight = "12"
+		wppaOvlFullLegenda = "Keys: f = next mode; q,x = exit; p = previous, n = next, s = start/stop, d = dismiss this notice.";
+		wppaOvlFullLegendaSingle = "Keys: f = next mode; q,x = exit; d = dismiss this notice.";
+		wppaOvlFullLegendaPanorama = "Keys: q,x = exit; p = previous, n = next, s = start/stop, d = dismiss this notice.";
+		wppaOvlFullLegendaSinglePanorama = "Keys: q,x = exit; d = dismiss this notice.";
+		wppaOvlVideoStart = true;
+		wppaOvlAudioStart = true;
+		wppaOvlShowLegenda = true;
+		wppaOvlShowStartStop = true;
+		wppaToggleFullScreen = "Toggle fullscreen";
+		wppaIsMobile = false;
+		wppaOvlFsExitBtnSize = "48";
+		/* END Lightbox vars */
+	</script>
+
+<script type="text/javascript">
+
+	/* START Viewcounts */
+	/* END Vieuwcounts */
+</script>
+<!-- Nonce for various wppa actions --><input type="hidden" id="wppa-nonce" name="wppa-nonce" value="24700c2a89"><input type="hidden" id="wppa-qr-nonce" name="wppa-qr-nonce" value="76cfe15c3b">
+<!-- Do user upload -->
+<!-- Done user upload --><script type="text/javascript" src="../../../../../src/comment-reply.js"></script>
+<script type="text/javascript" src="../../../../../src/wp-embed.js"></script>
+<script type="text/javascript" src="../../../../../src/gAnnounce.js"></script><style>.vnewsticker,a.vnewsticker{font-family:verdana,arial,sans-serif;font-size:11px;color:#000000;text-decoration:none;font-weight:normal}a.vnewsticker:hover{font-family:verdana,arial,sans-serif;font-size:11px;color:#FFFFFF;text-decoration:none;}td.vnewsticker{text-align:left;vertical-align:top;}</style>
+
+
+</body></html>
